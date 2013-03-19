@@ -11,4 +11,4 @@ If you have any issues, please talk to use on the #appium irc channel so we can 
 
 Cheers,
 
-Adam
+<a href="http://github.com/admc">Adam</a>
