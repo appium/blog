@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Sirupsen</title>
+ <link href="http://blog.appium.io/atom.xml" rel="self"/>
+ <link href="http://blog.appium.io/"/>
+ <updated>2013-03-18T17:03:44-07:00</updated>
+ <id>http://blog.appium.io</id>
+ <author>
+   <name>Appium</name>
+   <email>appium-discuss@googlegroups.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Blogging about Appium</title>
+   <link href="http://sirupsen.github.com/appium-blogging"/>
+   <updated>2013-03-18T00:00:00-07:00</updated>
+   <id>http:/sirupsen.github.com/appium-blogging</id>
+   <content type="html">&lt;p&gt;In an effort to help the rapidly growing Appium community – it made sense to get up a blog that folks can contribute to using the pull request OSS workflow. Hosting the whole blog out of GH makes this really easy, and great to interact with as a community.&lt;/p&gt;
+
+&lt;p&gt;If you have topics you think should be here, please fork the repo, write your blog entry and submit a merge!&lt;/p&gt;
+
+&lt;p&gt;If you have any issues, please talk to use on the #appium irc channel so we can help you get setup.&lt;/p&gt;
+
+&lt;p&gt;Cheers,&lt;/p&gt;
+
+&lt;p&gt;Adam&lt;/p&gt;
+</content>
+ </entry>
+ 
+</feed>
