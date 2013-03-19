@@ -114,7 +114,7 @@ article ul li li li {
 }
 
 #avatar {
-  background-image: url('/static/images/logo.png');
+  background-image: url('/blog/static/images/logo.png');
   background-size: cover;
   height: 134px;
   width: 134px;

@@ -23,8 +23,8 @@
     */
 @font-face {
   font-family: "FontAwesome";
-  src: url('/static/fontss/fontawesome-webfont.eot');
-  src: url('/static/fontss/fontawesome-webfont.eot?#iefix') format('eot'), url('/static/fonts/fontawesome-webfont.woff') format('woff'), url('/static/fonts/fontawesome-webfont.ttf') format('truetype'), url('/static/fonts/fontawesome-webfont.svg#FontAwesome') format('svg');
+  src: url('/blog/static/fontss/fontawesome-webfont.eot');
+  src: url('/blog/static/fontss/fontawesome-webfont.eot?#iefix') format('eot'), url('/blog/static/fonts/fontawesome-webfont.woff') format('woff'), url('/blog/static/fonts/fontawesome-webfont.ttf') format('truetype'), url('/blog/static/fonts/fontawesome-webfont.svg#FontAwesome') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1033,7 +1033,7 @@ article ul li li li {
 }
 
 #avatar {
-  background-image: url('/static/images/logo.png');
+  background-image: url('/blog/static/images/logo.png');
   background-size: cover;
   height: 134px;
   width: 134px;
