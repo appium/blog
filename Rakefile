@@ -25,7 +25,7 @@ task :deploy do
   `git commit -m 'Compressed CSS for deploy'`
 
   puts "Pushing to Github"
-  `git push origin master`
+  `git push origin gh-pages`
 end
 
 task "Serve"
