@@ -13,5 +13,7 @@ Anyways, back to the task at hand. Since Appium is no longer a beautiful symphon
 
 Either way it finally made sense. Mobile developers write their apps in Objective C, why not write their functional UI tests in the same language. It's no worse than writing this stuff in PHP. They could even put these tests in their test projects in XCode and use existing unit test infrastructure with their Selenium automation. In about 3 days, it was all done, and now they finally do exist.
 
+The binds are now available for download <a href="https://github.com/appium/selenium-objective-c">here</a>.
+
 SERemoteWebDriver *driver = [[SERemoteWebDriver alloc] init],<br />
 <a href="http://github.com/penguinho">Dan</a>
