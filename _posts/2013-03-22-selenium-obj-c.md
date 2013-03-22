@@ -11,7 +11,7 @@ Anyways, back to the task at hand. Since Appium is no longer a beautiful symphon
 
 "Would anyone other than myself use these bindings?" Then it occurred to me a half-dozen PHP bindings already exist, and if so many people want to write automation in PHP, it's probably because the developers want to code their apps and write tests in one language. Either that, or a lot of developers haven't been exposed to the finer things in life. (like Python)
 
-Either way, it finally made sense. Appium brings Selenium to mobile apps, so now the app language needs to match the Selenium language. Most iOS developers write their apps in Objective C, and might want to write their functional UI tests in the same language. It's nowhere nead as bad as writing this stuff in PHP. Developers could even put their tests in their test projects in XCode and use existing unit test infrastructure with their Selenium automation.
+Either way, it finally made sense. Appium brings Selenium to mobile apps, so now the app language needs to match the Selenium language. Most iOS developers write their apps in Objective C, and might want to write their functional UI tests in the same language. It's nowhere near as bad as writing this stuff in PHP. Developers could even put their tests in their test projects in XCode and use existing unit test infrastructure with their Selenium automation.
 
 In about 3 days, it was all done, and now they finally do exist. You can download the bindings <a href="https://github.com/appium/selenium-objective-c">here</a> and start writing Selenium tests in Objective C.
 
