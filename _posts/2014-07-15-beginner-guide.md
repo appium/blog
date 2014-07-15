@@ -12,11 +12,11 @@ This stage can actually be incredibly simple. Instead of installing different de
 
 After launching the Appium app, click on the Apple icon. The app I am running is for IOS, so I want to set up my client to run IOS apps.
 
-<img src="https://raw.githubusercontent.com/appium/blog/gh-pages/_posts/images/2014-07-15-img1.pngf">
+<img src="https://raw.githubusercontent.com/appium/blog/gh-pages/_posts/images/2014-07-15-img1.png">
 
 Then, put in the location of my .app file. If you build your app for release or archiving, you can always find your .app file in ~/Library/Developer/Xcode/DerivedData/{app name}/Build/Products
 
-<img src="https://raw.githubusercontent.com/appium/blog/gh-pages/_posts/images/2014-07-15-img2.pngf">
+<img src="https://raw.githubusercontent.com/appium/blog/gh-pages/_posts/images/2014-07-15-img2.png">
 
 Appium is now set up! Wasn’t that easy?
 
@@ -27,11 +27,11 @@ This part is very dependent on how you wish to write your test, but I’ll brief
 
 I decided to write my test in Ruby. As you can see, I begin my test with the requirements needed to run the file and information about the device I want to work off of. I also put in the path of the app I’m testing in my code as well. This is always good practice for your tests.
 
-<img src="https://raw.githubusercontent.com/appium/blog/gh-pages/_posts/images/2014-07-15-img3.pngf">
+<img src="https://raw.githubusercontent.com/appium/blog/gh-pages/_posts/images/2014-07-15-img3.png">
 
 Important tip: you can actually use the Appium inspector to find the xpath of all items within your app. You can also use it to record different actions, practically writing your code for you! The inspector can be used after you hit the launch button on the main appium window. Once the Appium server is launched, hit the spyglass to the left of the launch button to begin using the inspector.
 
-<img src="https://raw.githubusercontent.com/appium/blog/gh-pages/_posts/images/2014-07-15-img4.pngf">
+<img src="https://raw.githubusercontent.com/appium/blog/gh-pages/_posts/images/2014-07-15-img4.png">
 
 <u>Running The Test</u>
 
@@ -39,18 +39,18 @@ The most crucial part of this step is remembering that the test works off of the
 
 First, click on the “launch” button on the Appium client to get started.
 
-<img src="https://raw.githubusercontent.com/appium/blog/gh-pages/_posts/images/2014-07-15-img5.pngf">
+<img src="https://raw.githubusercontent.com/appium/blog/gh-pages/_posts/images/2014-07-15-img5.png">
 
 Then, navigate to the location of your test in the terminal.
 
-<img src="https://raw.githubusercontent.com/appium/blog/gh-pages/_posts/images/2014-07-15-img6.pngf">
+<img src="https://raw.githubusercontent.com/appium/blog/gh-pages/_posts/images/2014-07-15-img6.png">
 
 After that, launch the test using the library you decided to write with. Since I wrote my test in ruby, I used the command “rspec test.rb” to launch my test.
 
-<img src="https://raw.githubusercontent.com/appium/blog/gh-pages/_posts/images/2014-07-15-img7.pngf">
+<img src="https://raw.githubusercontent.com/appium/blog/gh-pages/_posts/images/2014-07-15-img7.png">
 
 Then, just sit back and watch Appium do the rest!
 
-<img src="https://raw.githubusercontent.com/appium/blog/gh-pages/_posts/images/2014-07-15-img8.pngf">
+<img src="https://raw.githubusercontent.com/appium/blog/gh-pages/_posts/images/2014-07-15-img8.png">
 
 <a href="http://github.com/austenke">Austen</a>
